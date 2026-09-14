@@ -18,9 +18,9 @@ aht = adafruit_ahtx0.AHTx0(i2c)
 # --- AWS IoT settings ---
 ENDPOINT  = "a2tbu5f0vot3rq-ats.iot.us-east-2.amazonaws.com"
 CLIENT_ID = "Pi-Themostat-v1"
-CERT = "/home/smartthermo/AWS_PI_SmartThemo/device.pem.crt"
-PRIV = "/home/smartthermo/AWS_PI_SmartThemo/private.pem.key"
-ROOT = "/home/smartthermo/AWS_PI_SmartThemo/AmazonRootCA1.pem"
+CERT = 
+PRIV = 
+ROOT = 
 TOPIC_TELE = f"smartthermo/{CLIENT_ID}/telemetry"
 
 # --- Configuration for hourly operation ---
